@@ -9,8 +9,9 @@ DiscordRPC.register(clientId);
 let startTime = Date.now();
 
 // Add Your Desired Project
+// Provide the file extension as well i.e. .flp
 // E.g. 'Clair De Lune by Claude Debussy.flp'
-let filename = 'project.flp';
+let filename = '';
 
 function getElapsedTime() {
     const now = Date.now();
